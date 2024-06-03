@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  background-color: #191919;
+}
+header {
+  margin: 26px 0;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+a{
+    list-style: none;
+    cursor: pointer;
+}
+.nav-bar {
+  margin: 0;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #FFFFFF;
+  column-gap: 40px;
+  display: flex;
+}
+.color-blue{
+    color: #118DA8;
+}
