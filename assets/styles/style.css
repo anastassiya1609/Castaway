@@ -1,0 +1,160 @@
+body,
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  background-color: #191919;
+  color: #fff;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 26px 0;
+  padding: 0 50px;
+}
+a {
+  list-style: none;
+  cursor: pointer;
+}
+.nav-bar {
+  display: flex;
+  column-gap: 40px;
+  margin: 0;
+  padding: 20px;
+  font-size: 18px;
+}
+.color-blue {
+  color: #118da8;
+}
+section {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+.img-frame {
+  position: absolute;
+  top: 115px;
+  left: 45px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 60px;
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 3.200000047683716px;
+}
+.banner-line {
+  width: 160px;
+  position: absolute;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+}
+.text-big {
+  font-size: 75px;
+  padding-right: 25px;
+}
+.text-bold {
+  font-size: 80px;
+  font-weight: 700;
+}
+.music-venues {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding: 0 22px;
+  margin-top: 74px;
+  font-size: 15px;
+  line-height: 24px;
+  
+}
+.logo-music-venues {
+  width: 32px;
+  height: auto;
+  margin-right: 17px;
+}
+.episodes-wrapper {
+  display: flex;
+  row-gap: 40px;
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+.episodes-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 64px;
+  line-height: 79.2px;
+  letter-spacing: 2.880000114440918px;
+}
+
+.button {
+  min-height: 51px;
+  padding: 12px 15px 12px 20px;
+  margin: 24px 0;
+  border: 0px;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #fff;
+  background-color: #118da8;
+ 
+}
+.episode {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 53px;
+  padding: 40px;
+  border-radius: 32px;
+  background-color: #000;
+}
+.episode-img{
+  width: 35%;
+}
+.episode-banner{
+  width: 60%;
+}
+.episode-category {
+  width: fit-content;
+  margin: 8px 0 48px 0;
+  padding: 0 16px;
+  font-size: 18px;
+  background-color: #191919;
+}
+.episode-number {
+  color: #118da8;
+  font-size: 17px;
+}
+.episode-name {
+  margin: 18px 0 28px 0;
+  font-size: 64px;
+  line-height: 70.4px;
+  letter-spacing: 2.559999942779541px;
+  
+}
+.episode-description{
+font-size: 22px;
+line-height: 33px;
+color: #FFFFFFB2;
+}
