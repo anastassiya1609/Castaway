@@ -190,10 +190,13 @@ color: #FFFFFFB2;
 }
 .title-subscribe{
   font-size: 72px;
+  padding-right: 151px;
 }
 .wrapper-subscribe{
-  padding: 0 151px 85px 0;
   width: 47%;
+}
+.form-subscribe{
+  width: 46%;
 }
  
 .form-subscribe input{
@@ -207,6 +210,31 @@ color: #FFFFFFB2;
 .form-subscribe :placeholder-shown{
   color: #FFFFFFB2;
 }
+.wrapper-feedbacks{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 16px;
+}
+.feedback{
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  padding: 50px;
+  row-gap: 20px;
+  border-radius: 32px;
+  background-color: #000;
+}
+.feedback-title{
+font-size: 36px;
+line-height: 43.2px;
+}
+.feedback-name{
+  font-size: 24px;
+  line-height: 28.8px; 
+  color: #FFFFFFB2;
+}
 @media (max-width:1140px){
   .wrapper-teacher_img{
     width: 100%;
@@ -218,6 +246,9 @@ color: #FFFFFFB2;
     width: 100%;
   }
   .episode-banner{
+    width: 100%;
+  }
+  .feedback{
     width: 100%;
   }
 }
