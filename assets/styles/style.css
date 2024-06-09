@@ -93,7 +93,7 @@ p {
 }
 .logo-music-venues {
   width: 32px;
-  height: auto;
+  height: 32px;
   margin-right: 17px;
 }
 .episodes-wrapper {
@@ -234,6 +234,25 @@ line-height: 43.2px;
   font-size: 24px;
   line-height: 28.8px; 
   color: #FFFFFFB2;
+}
+.logo-footer{
+  padding: 0px 223px 20px 0;
+}
+.logo-sm{
+  padding-right: 10px;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-right: 104px;
+}
+.pages{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 10px;
+  padding-right: 16px;
 }
 @media (max-width:1140px){
   .wrapper-teacher_img{
