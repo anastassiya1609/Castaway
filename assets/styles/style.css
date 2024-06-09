@@ -37,14 +37,20 @@ section {
   margin: 0;
 }
 .container {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   padding: 0 50px;
 }
 .img-frame {
   position: absolute;
-  top: 115px;
-  left: 45px;
+  top: -30px;
+  left: 20px;
+}
+.img-frame_bottom{
+  position: absolute;
+  bottom: -30px;
+  left: -38px;
 }
 .banner {
   display: flex;
@@ -120,7 +126,8 @@ p {
   background-color: #118da8;
  
 }
-.episode {
+.wrapper_black {
+  position: relative;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -128,6 +135,9 @@ p {
   padding: 40px;
   border-radius: 32px;
   background-color: #000;
+}
+.wrapper_black-pd{
+  padding: 60px;
 }
 .episode-img{
   width: 35%;
@@ -142,7 +152,7 @@ p {
   font-size: 18px;
   background-color: #191919;
 }
-.episode-number {
+.text-small-blue {
   color: #118da8;
   font-size: 17px;
 }
@@ -153,8 +163,61 @@ p {
   letter-spacing: 2.559999942779541px;
   
 }
-.episode-description{
+.text-description{
 font-size: 22px;
 line-height: 33px;
 color: #FFFFFFB2;
+}
+.container_padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.wrapper-teacher{
+  padding: 147.72px 60px 147.72px 0;
+  width: 47%;
+}
+.specification-arrow{
+  margin-bottom: 20px;
+}
+.wrapper-teacher_img{
+  width: 47%;
+}
+.description-teacher_padding{
+  padding: 28px 34px 0px 0px;
+}
+.description-teacher_padding-2{
+  padding: 33px 62px 18px 0;
+}
+.title-subscribe{
+  font-size: 72px;
+}
+.wrapper-subscribe{
+  padding: 0 151px 85px 0;
+  width: 47%;
+}
+ 
+.form-subscribe input{
+  width: 100%;
+  padding: 26px 0 27px 19px;
+  border-radius: 6px;
+  background-color: #191919;
+  border: 1px solid #191919;
+  margin-bottom: 20px;
+}
+.form-subscribe :placeholder-shown{
+  color: #FFFFFFB2;
+}
+@media (max-width:1140px){
+  .wrapper-teacher_img{
+    width: 100%;
+  }
+  .wrapper-teacher{
+    width: 100%;
+  }
+  .episode-img{
+    width: 100%;
+  }
+  .episode-banner{
+    width: 100%;
+  }
 }
